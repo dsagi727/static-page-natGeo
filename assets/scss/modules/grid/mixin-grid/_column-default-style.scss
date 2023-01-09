@@ -1,0 +1,20 @@
+@mixin column-default-style {
+  // .container > [class^="default"]
+  .#{var(container-classname)} > [class^="#{var(column-classname)}"] {
+    box-sizing: border-box;
+    padding: var(column-padding-default);
+    position: relative;
+
+    @include mobile-up {
+      padding: var(column-padding-mobile);
+    }
+
+    @include tablet-up {
+      padding: var(column-padding-tablet);
+    }
+
+    @include desktop-up {
+      padding: var(column-padding-desktop);
+    }
+  }
+}

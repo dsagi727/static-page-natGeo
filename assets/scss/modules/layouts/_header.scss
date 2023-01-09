@@ -1,0 +1,145 @@
+@use "../mixin" as *;
+@use "../colors" as *;
+
+.navbar {
+  @include setFlexJustify(center, column);
+  align-items: center;
+  max-width: 1280px;
+
+  overflow: hidden;
+  background-color: $main-background;
+  position: relative;
+
+  a {
+    color: $text-color-light;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+    img {
+      width: 15%;
+      @media only screen and (max-width: 960px) {
+        width: 25%;
+      }
+      @media only screen and (max-width: 640px) {
+        width: 50%;
+      }
+    }
+  }
+
+  a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    .fa-x {
+      display: none;
+      @keyframes fadeIn {
+        0% {
+          display: none;
+          opacity: 0;
+          height: 0;
+        }
+        99% {
+          display: block;
+        }
+        100% {
+          display: block;
+          opacity: 1;
+          height: 100%;
+        }
+      }
+      &.open {
+        animation: fadeIn 300ms linear backwards;
+      }
+    }
+    .fa-bars {
+      @keyframes fadeIn {
+        0% {
+          display: none;
+          opacity: 0;
+          height: 0;
+        }
+        99% {
+          display: block;
+        }
+        100% {
+          display: block;
+          opacity: 1;
+          height: 100%;
+        }
+      }
+      &.open {
+        animation: fadeIn 300ms linear backwards;
+      }
+    }
+  }
+  
+  #myLinks {
+    display: none;
+    text-align: center;
+    @keyframes hideNav {
+      0% {
+        display: block;
+        opacity: 1;
+        height: 100%;
+      }
+      99% {
+        display: none;
+      }
+      100% {
+        display: none;
+        opacity: 0;
+        height: 0;
+      }
+    }
+    @keyframes showNav {
+      0% {
+        display: none;
+        opacity: 0;
+        height: 0;
+      }
+      99% {
+        display: block;
+      }
+      100% {
+        display: block;
+        opacity: 1;
+        height: 100%;
+      }
+    }
+    a {
+      @include link();
+      display: block;
+      margin: 2em;
+      z-index: 1;
+    }
+    &.showNav {
+      animation: showNav 1s linear backwards;
+      }
+    &.hideNav {
+      animation: hideNav 1s linear forwards;
+    }
+  }
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: $secondary-background;
+  height: 500px;
+  color: $text-color-light;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: $main-background;
+  color: $text-color-light;
+  border-bottom: 1px solid $text-color-light;
+}
+
+.fa-bars {
+  @include setFlexJustify(center, row);
+  align-items: center;
+}

@@ -1,1 +1,1 @@
-# static-page-natGeo
+# static-project-nature

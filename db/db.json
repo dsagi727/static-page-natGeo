@@ -1,0 +1,70 @@
+{
+  "emailSubs": [
+    {
+      "email": "valid@email.hu",
+      "id": 5
+    },
+    {
+      "email": "valid@email.hu",
+      "id": 6
+    },
+    {
+      "email": "dsagi727@gmail.com",
+      "id": 7
+    },
+    {
+      "email": "info@sagidaniel.hu",
+      "id": 8
+    }
+  ],
+  "gallery": [
+    {
+      "path": "assets/img/content/gallery/01-gallery.jpeg",
+      "alt": "forest"
+    },
+    {
+      "path": "assets/img/content/gallery/02-gallery.jpeg",
+      "alt": "meadow"
+    },
+    {
+      "path": "assets/img/content/gallery/03-gallery.jpeg",
+      "alt": "volcan"
+    },
+    {
+      "path": "assets/img/content/gallery/04-gallery.jpeg",
+      "alt": "bay"
+    },
+    {
+      "path": "assets/img/content/gallery/05-gallery.jpeg",
+      "alt": "rock"
+    },
+    {
+      "path": "assets/img/content/gallery/06-gallery.jpeg",
+      "alt": "dust"
+    },
+    {
+      "path": "assets/img/content/gallery/07-gallery.jpeg",
+      "alt": "port"
+    },
+    {
+      "path": "assets/img/content/gallery/08-gallery.jpeg",
+      "alt": "tree"
+    },
+    {
+      "path": "assets/img/content/gallery/09-gallery.jpeg",
+      "alt": "crag"
+    },
+    {
+      "path": "assets/img/content/gallery/10-gallery.jpeg",
+      "alt": "field"
+    },
+    {
+      "path": "assets/img/content/gallery/11-gallery.jpeg",
+      "alt": "sea"
+    },
+    {
+      "path": "assets/img/content/gallery/12-gallery.jpeg",
+      "alt": "mountains"
+    }
+  ]
+}

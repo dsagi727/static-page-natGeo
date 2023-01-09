@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- OPENGRAPH META -->
+    <meta property="og:title" content="National Geographic" />
+    <meta
+      property="og:description"
+      content="Explore National Geographic. A world leader in geography, cartography and exploration."
+    />
+    <meta property="og:image" content="assets\img\site\og\nat-geo.jpg" />
+    <title>National Geographic</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/site/logo/favicon.svg"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <nav class="container">
+      <section class="navbar">
+        <a href="http://127.0.0.1:5500/index.html" class="active"
+          ><img src="assets/img/site/logo/logo-L.svg" alt="National Geographic"
+        /></a>
+        <div id="myLinks" class="hideNav">
+          <a href="index.html#gallery">Gallery</a>
+          <a href="index.html#blog">Blog</a>
+          <a href="index.html#subscription">Subscripton</a>
+          <a href="admin.html">admin</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="navMenu()">
+          <i class="fa-sharp fa-solid fa-bars fa-3x"></i>
+          <i class="fa-sharp fa-solid fa-x fa-3x"></i>
+        </a>
+      </section>
+    </nav>
+    <!-- 1-4 SECTION - ATTILA -->
+
+    <!-- SECTION-1 -->
+    <main class="container">
+      <header class="container announcement">
+        <div
+          class="announcement__img col-sx-12 col-sm-6 col-md-8 col-lg-8"
+        ></div>
+
+        <div
+          class="announcement__description col-sx-12 col-sm-6 col-md-4 col-lg-4"
+        >
+          <div class="announcement__content">
+            <h1>Spectacular Photos Of Our World</h1>
+            <p>
+              The 2018 Travel Photographer of the Year contest is coming up.
+              Here are some of your favorites from last year's competition
+            </p>
+            <form action="#blog">
+              <button class="announcement__btn">LEARN MORE</button>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="announcement__subtitle col-xs-12 col-sm-12 col-md-12 col-lg-12"
+        >
+          <p>Photography by Clane Gessel</p>
+        </div>
+      </header>
+
+      <!-- SECTION-2 -->
+
+      <section class="container contest">
+        <div class="contest__container reverse">
+          <div
+            class="contest__container-header col-sx-12 col-sm-3 col-md-3 col-lg-3"
+          >
+            <h1><strong>Winners</strong> 2018</h1>
+          </div>
+          <div
+            class="contest__container-description col-sx-12 col-sm-9 col-md-9 col-lg-9"
+          >
+            <div>
+              <h3>National Geographic Nature Photographer Of The Year</h3>
+            </div>
+            <div>
+              <p>
+                Each Week, Our Editors Choose Stunning Photos Submitted By
+                Members Of Your Shot, National Geographic's Photo Community
+              </p>
+            </div>
+            <div class="contest__container-link"><a href="#">READ MORE</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION-3 -->
+
+      <section class="container iceland">
+        <section class="iceland__container">
+          <div class="iceland__container--blog">
+            <h3>Dark, Cold, And Windy</h3>
+            <hr />
+            <p>
+              The mornings in Iceland were not the easiest for me. Dark, cold,
+              and windy. The conditions at Jökulsárlón exceeded my wildest
+              expectations. Puzzled pieces of ice in various shades of white and
+              blue, a warm light illuminating the tops of the mountains covered
+              in snow
+            </p>
+            <div class="iceland__container--link">
+              <a href="#blog">READ MORE</a>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- SECTION-4 -->
+
+      <section
+        class="container gallery col-xs-12 col-sm-12 col-md-12 col-lg-12"
+        id="gallery"
+      >
+        <div class="gallery__container">
+          <div class="gallery__description">
+            <h1>Sony World Photography Awards</h1>
+            <hr />
+            <p>
+              We are delighted to reveal the winners of the 2018 Sony World
+              Photography Awards. Browse the various galleries below to see the
+              full range of stunning imagery from around the world.
+            </p>
+          </div>
+          <div class="gallery-box">
+            <div class="gallery-item" data-index="1">
+              <img
+                id="img1"
+                src="./assets/img/content/gallery/01-gallery.jpeg"
+              />
+            </div>
+            <div class="gallery-item" data-index="2">
+              <img
+                id="img2"
+                src="./assets/img/content/gallery/02-gallery.jpeg"
+              />
+            </div>
+            <div class="gallery-item" data-index="3">
+              <img
+                id="img3"
+                src="./assets/img/content/gallery/03-gallery.jpeg"
+              />
+            </div>
+            <div class="gallery-item" data-index="4">
+              <img
+                id="img4"
+                src="./assets/img/content/gallery/04-gallery.jpeg"
+              />
+            </div>
+            <div class="gallery-item" data-index="5">
+              <img
+                id="img5"
+                src="./assets/img/content/gallery/05-gallery.jpeg"
+              />
+            </div>
+            <div class="gallery-item" data-index="6">
+              <img
+                id="img6"
+                src="./assets/img/content/gallery/06-gallery.jpeg"
+              />
+            </div>
+          </div>
+          <div>
+            <button class="gallery__btn">VIEW MORE</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5-8 SECTION - DANI -->
+      <!-- SECTION 5 sunrise-->
+
+      <section class="container sunrise">
+        <!-- container-left -->
+        <div
+          class="container sunrise__container--left col-xs-12 col-sm-7 col-md-7 col-lg-8"
+        >
+          <div class="img-air-ballon"></div>
+          <div class="sunrise--square"></div>
+        </div>
+
+        <!-- container-right -->
+        <div
+          class="container sunrise__container--right col-xs-12 col-sm-5 col-md-5 col-lg-4"
+        >
+          <div class="sunrise__corner--top"></div>
+          <div class="sunrise__content">
+            <h3>Golden Sunrise</h3>
+
+            <p>This photo was taken during sunrise in Bagan, Myanmar</p>
+            <div>
+              <a class="sunrise--link" href="#blog">view more</a>
+            </div>
+          </div>
+
+          <div class="sunrise__corner--bottom"></div>
+        </div>
+      </section>
+
+      <!-- SECTION 6 Blog -->
+      <section class="blog" id="blog">
+        <section class="blog__post col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <div>
+            <div>
+              <div class="blog__post--img-1"></div>
+
+              <div class="blog__title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="blog__post--img-2"></div>
+
+              <div class="blog__title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog__post col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <div>
+            <div>
+              <div class="blog__post--img-3"></div>
+
+              <div class="blog__title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="blog__post--img-4"></div>
+
+              <div class="blog__title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog__post col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <div>
+            <div>
+              <div class="blog__post--img-5"></div>
+
+              <div class="blog__title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="blog__post--img-6"></div>
+
+              <div class="blog__title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- SECTION 7 diving -->
+      <section class="container diving">
+        <div class="diving__title col-sx-12 col-sm-12 col-md-7 col-lg-8">
+          <div class="">
+            <div class="diving__content">
+              <h2>25 Amaizing Photos Of Life Underwater</h2>
+              <p>
+                Although these dholphins are enjoying a feeding frenzy, Lecoeur
+                notes thet the sardines upon which they depend are becoming
+                scarcer - "victims of overfishing and climate change" - and this
+                type of hunt less predictable.
+              </p>
+              <div>
+                <a class="diving--link" href="#blog">view more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="diving__img col-sx-12 col-sm-12 col-md-5 col-lg-4">
+          <div class="diving__square"></div>
+          <div class="diving__pic"></div>
+          <div class="diving__corner--bottom"></div>
+        </div>
+
+        <div class="diving__subtitle col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>Photography by Marc Henauer</p>
+        </div>
+      </section>
+      <!-- Section 8 -->
+      <section class="subscripton container" id="subscription">
+        <div class="subscripton__msg col-sx-6 col-sm-6 col-md-3 col-lg-3">
+          <div>
+            <h3>
+              Travel <br />
+              with us
+            </h3>
+          </div>
+        </div>
+        <div class="subscripton__text col-sx-6 col-sm-6 col-md-3 col-lg-4">
+          <div>
+            <p>
+              Get amazing videos, travel tips, and pictures of the world's
+              beautiful and far-flung places, plus special offers.
+            </p>
+          </div>
+        </div>
+        <form
+          id="form"
+          class="form subscripton__email col-sx-12 col-sm-12 col-md-6 col-lg-5"
+        >
+          <input
+            class="subscripton__email--input"
+            id="email"
+            placeholder="Enter a valid email address"
+            type="email"
+            onkeyup="validateEmail()"
+            required
+          />
+
+          <button class="subscripton__email--btn" type="button">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION - GYURI -->
+
+    <section class="layer">
+      <section class="footer">
+        <section
+          class="footer__content col-xs-12 col-sm-12 col-md-12 col-lg-12"
+        >
+          <div
+            class="footer__content--logo col-xs-12 col-sm-12 col-md-6 col-lg-6"
+          >
+            <img
+              src="assets/img/site/logo/logo-L.svg"
+              alt="National Geographic"
+            />
+          </div>
+          <div
+            class="footer__content--social col-xs-12 col-sm-12 col-md-6 col-lg-6"
+          >
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-google-plus-g fa-xl"></i></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <hr />
+        <section
+          class="footer__copyright col-sx-12 col-sm-12 col-md-12 col-lg-12"
+        >
+          <div id="copyright"></div>
+        </section>
+      </section>
+    </section>
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/email-subs.js"></script>
+  </body>
+</html>

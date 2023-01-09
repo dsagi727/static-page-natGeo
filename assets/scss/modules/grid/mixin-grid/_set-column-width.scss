@@ -1,0 +1,21 @@
+// .column--default-2
+@mixin set-column-width($viewport, $column-count) {
+  $width: calc(100% * $column-count / var(grid-size));
+  $number: convert-string-to-number($viewport);
+
+  @if $number == 1 {
+    width: $width;
+  } @else if $number == 2 {
+    @include mobile-up {
+      width: $width;
+    }
+  } @else if $number == 3 {
+    @include tablet-up {
+      width: $width;
+    }
+  } @else if $number == 4 {
+    @include desktop-up {
+      width: $width;
+    }
+  }
+}

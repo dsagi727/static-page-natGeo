@@ -1,0 +1,17 @@
+@mixin mobile-up {
+  @media only screen and (min-width: var(grid-breakpoint-mobile)) {
+    @content;
+  }
+}
+
+@mixin tablet-up {
+  @media only screen and (min-width: var(grid-breakpoint-tablet)) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media only screen and (min-width: var(grid-breakpoint-desktop)) {
+    @content;
+  }
+}
