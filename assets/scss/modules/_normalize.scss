@@ -16,16 +16,7 @@ body {
   background-color: $main-background;
 }
 
-.main-container {
-  box-sizing: border-box;
-  display: flex;
-  flex: 0 1 auto;
-  flex-flow: row wrap;
-  margin: 0 auto;
-  padding: var(container-padding-default);
-  position: relative;
-  max-width: var(container-maxWidth);
-}
+
 
 //Normal text & link
 

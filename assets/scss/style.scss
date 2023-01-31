@@ -4,7 +4,17 @@ html {
   scroll-behavior: smooth;
 }
 
+nav.container {
+  @include setFlexJustify(center, row);
+}
 
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
 
 // Section-1
 .announcement {
