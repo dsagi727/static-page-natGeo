@@ -6,6 +6,7 @@ html {
 
 nav.container {
   @include setFlexJustify(center, row);
+  width: 100%;
 }
 
 .navbar {
